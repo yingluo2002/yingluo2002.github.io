@@ -17,5 +17,5 @@ As I approach my undergraduate graduation, I have been recommended for direct ad
 
 That's all.
 
-Email QQ: 3611544427@qq.com / [Github](https://github.com/yingluo2002) / [Wechat](../images/wechat.jpg) / [CSDN](https://blog.csdn.net/sixibiheye)
+You can find me here: [QQ](../images/qq.jpg) / [Github](https://github.com/yingluo2002) / [Wechat](../images/wechat.jpg) / [CSDN](https://blog.csdn.net/sixibiheye)
 
