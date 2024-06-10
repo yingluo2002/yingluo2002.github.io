@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a fourth year undergraduate student from [HNU, HUNAN NORMAL UNIVERSITY](https://www.hunnu.edu.cn/). I am majoring in Data Science and Big Data Technology, with a focus on Big Data Statistics.So my research interest includes computer vision, computer graphics, machine learning, and computational photography.
+I'm a fourth year undergraduate student from [Hunan Normal University](https://www.hunnu.edu.cn/). I am majoring in Data Science and Big Data Technology, with a focus on Big Data Statistics.So my research interest includes computer vision, computer graphics, machine learning, and computational photography.
 
 During my university years, I participated in two significant research projects. 
 One is "Aurora Technology - AI-based Identification and Analysis System for Traditional Chinese Medicine Using a Portable MEMS Spectrometer," where I was responsible for the Android development of the system. 
