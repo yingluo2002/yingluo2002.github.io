@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Ying Luo's Personal Website"
+title: "罗颖的个人网站"
 author_profile: true
 redirect_from: 
   - /about/
@@ -10,7 +10,7 @@ redirect_from:
 ## 滴滴滴哒哒哒～滴滴滴哒哒哒
 
 欢迎访问我的个人网站。
-在这里，您可以看到我在这个世界上的生活和学习足迹。
+在这里，您可以看到我在这个世界上的学习足迹。
 
 ## 本科方向
 数据科学与大数据技术
