@@ -7,15 +7,20 @@ redirect_from:
   - /about.html
 ---
 
-I'm a fourth year undergraduate student from [Hunan Normal University](https://www.hunnu.edu.cn/). I am majoring in Data Science and Big Data Technology, with a focus on Big Data Statistics.So my research interest includes computer vision, computer graphics, machine learning, and computational photography.
+### 感谢访问我的个人网站！
 
-During my university years, I participated in two significant research projects. 
-One is "Aurora Technology - AI-based Identification and Analysis System for Traditional Chinese Medicine Using a Portable MEMS Spectrometer," where I was responsible for the Android development of the system. 
-The other is "Research on Real-time Interactive Visualization Technology of 3D Boundary Element Data," a national-level project, where we developed a visualization interface between the 3D Boundary Element Algorithm and Paraview. I was the primary leader of the project, which is now nearing completion.
+我本科即将毕业于[湖南师范大学](https://www.hunnu.edu.cn/)数学与统计学院，一个神奇而美丽的大学，如果有机会，我一定要带您逛一逛哈哈哈。
 
-As I approach my undergraduate graduation, I have been recommended for direct admission to the [Sun Yat-sen University](https://www.sysu.edu.cn/) School of Medicine, with a focus on Bioinformatics, based on my comprehensive first-place ranking in my major. I hope to shine in this new field and contribute my efforts.
+## 本科方向
+数据科学与大数据技术
 
-That's all.
+## 研究方向
+统计分析方法、数据结构与算法、大数据导论、数据存储、高性能计算、人工智能、机器学习、数据挖掘、生物信息
 
-You can find me here: [QQ](../images/qq.jpg) / [Github](https://github.com/yingluo2002) / [Wechat](../images/wechat.jpg) / [CSDN](https://blog.csdn.net/sixibiheye)
+## 学习经历
+本科师从[阳波](https://gsy.hunnu.edu.cn/info/1071/2383.htm)教授和[汪波](https://mc.hunnu.edu.cn/info/1665/4957.htm)教授（在此感谢阳教授在我大一大二阶段的启迪相助，也感谢汪教授大三大四对我研究项目的悉心指导）。
+
+硕士即将前往[中山大学]((https://www.sysu.edu.cn/))中山医学院，攻读生物信息方向，师从[李淼新](https://zssom.sysu.edu.cn/zh-hans/teacher/472)教授，希望能在[精准医学基因组学课题组，PMGLab](http://pmglab.top/)里贡献自己的一份力量。
+
+您可以通过以下方式联系到我: [QQ](../images/qq.jpg) / [Github](https://github.com/yingluo2002) / [Wechat](../images/wechat.jpg) / [CSDN](https://blog.csdn.net/sixibiheye)
 
