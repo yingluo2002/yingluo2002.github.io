@@ -26,7 +26,7 @@ redirect_from:
 ## 学习经历
 本科毕业于[湖南师范大学](https://www.hunnu.edu.cn/)数学与统计学院，师从[阳波教授](https://gsy.hunnu.edu.cn/info/1071/2383.htm)和[汪波教授](https://mc.hunnu.edu.cn/info/1665/4957.htm)。
 
-硕士即将前往[中山大学]((https://www.sysu.edu.cn/))中山医学院，主攻生物信息学（现在我生物基础几乎为0呜呜呜），师从[李淼新教授](https://zssom.sysu.edu.cn/zh-hans/teacher/472)，您可以在这找到我们课题组的详细信息[详细信息](http://pmglab.top/)。
+硕士即将前往[中山大学]((https://www.sysu.edu.cn/))中山医学院，主攻生物信息学，师从[李淼新教授](https://zssom.sysu.edu.cn/zh-hans/teacher/472)，您可以在这找到我们课题组的详细信息[详细信息](http://pmglab.top/)。
 
 您可以通过以下方式联系到我: [QQ](../images/qq.jpg) / [Github](https://github.com/yingluo2002) / [Wechat](../images/wechat.jpg) / [CSDN](https://blog.csdn.net/sixibiheye)
 
