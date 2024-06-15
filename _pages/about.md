@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Ying Luo's Personal Academic Website"
+title: "Ying Luo's Personal Website"
 author_profile: true
 redirect_from: 
   - /about/
