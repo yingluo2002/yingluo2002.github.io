@@ -1,13 +1,16 @@
 # main links links
 main:
-  - title: "Teaching"
-    url: /teaching/
+  - title: "Projects"
+    url: /projects/
 
   - title: "Blogs"
     url: /blogs/
     
-  - title: "CV"
-    url: /cv/
+  - title: "Wechat Posts"
+    url: /wechat/
+
+  - title: "CSDN Posts"
+    url: /csdn/
     
   - title: "Guide"
     url: /markdown/

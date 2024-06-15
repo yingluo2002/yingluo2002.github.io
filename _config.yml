@@ -200,20 +200,26 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  projects:
     output: true
     permalink: /:collection/:path/
   blogs:
+    output: true
+    permalink: /:collection/:path/
+  wechat:
+    output: true
+    permalink: /:collection/:path/
+  csdn:
     output: true
     permalink: /:collection/:path/
 
 
 # Defaults
 defaults:
-  # _posts
+  # _projects
   - scope:
       path: ""
-      type: posts
+      type: projects
     values:
       layout: single
       author_profile: true
@@ -228,41 +234,33 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _blogs
   - scope:
       path: ""
-      type: teaching
+      type: blogs
     values:
       layout: single
       author_profile: true
       share: true
       comments: true
-  # _publications
+  # _wechat
   - scope:
       path: ""
-      type: publications
+      type: wechat
     values:
       layout: single
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _csdn
   - scope:
       path: ""
-      type: portfolio
+      type: csdn
     values:
       layout: single
       author_profile: true
       share: true
       comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
 
 
 # Sass/SCSS
