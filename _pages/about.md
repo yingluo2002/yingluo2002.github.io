@@ -7,26 +7,41 @@ redirect_from:
   - /about.html
 ---
 
-## 滴滴滴哒哒哒～滴滴滴哒哒哒
+## **Introduction**
 
-欢迎访问我的个人网站。
+Here, you can learn about my academic journey in this world.
 
-在这里，您可以了解到我在这个世界上的学习足迹。
+If you are an academic expert, please click the "✖️" in the top left corner, thank you.
 
-如果您是学术大佬，请点击左上角"✖️"，谢谢。
+If, like me, you are a newcomer to academia, I hope this website can provide you with some assistance.
 
-如果您跟我一样，是学界小白，那么希望这个网站能对您有一点点的帮助。
+## **Undergraduate Direction**
+Data Science and Big Data Technology
 
-## 本科方向
-数据科学与大数据技术
+## **Research direction**
+Statistical analysis methods
 
-## 研究方向
-统计分析方法、数据结构与算法、大数据导论、数据存储、高性能计算、人工智能、机器学习、数据挖掘、生物信息
+Data structures and algorithms
 
-## 学习经历
-本科毕业于[湖南师范大学](https://www.hunnu.edu.cn/)数学与统计学院，师从[阳波教授](https://gsy.hunnu.edu.cn/info/1071/2383.htm)和[汪波教授](https://mc.hunnu.edu.cn/info/1665/4957.htm)。
+Data storage
 
-硕士即将前往[中山大学]((https://www.sysu.edu.cn/))中山医学院，主攻生物信息学，师从[李淼新教授](https://zssom.sysu.edu.cn/zh-hans/teacher/472)，您可以在这找到我们课题组的[详细信息](http://pmglab.top/)。
+High-performance computing
 
-您可以通过以下方式联系到我: [QQ](../images/qq.jpg) / [Github](https://github.com/yingluo2002) / [Wechat](../images/wechat.jpg) / [CSDN](https://blog.csdn.net/sixibiheye)
+Artificial intelligence
+
+Machine learning
+
+Data mining
+
+Bioinformatics
+
+## **Learning experience**
+
+I graduated from the School of Mathematics and Statistics at [Hunan Normal University](https://www.hunnu.edu.cn/) with a bachelor's degree, under the guidance of [Professor Bo Yang](https://gsy.hunnu.edu.cn/info/1071/2383.htm) and [Professor Bo Wang](https://mc.hunnu.edu.cn/info/1665/4957.htm).
+
+My master's degree is about to go to Zhongshan Medical College, [Sun Yat sen University](https://www.sysu.edu.cn/), majoring in bioinformatics. I will be studying under [Professor Miaoxin Li](https://zssom.sysu.edu.cn/zh-hans/teacher/472), and you can find detailed information about our research group [here](http://pmglab.top/).
+
+You can contact me here:  [QQ](../images/qq.jpg) / [Github](https://github.com/yingluo2002) / [Wechat](../images/wechat.jpg) / [CSDN](https://blog.csdn.net/sixibiheye)
+
+
 
