@@ -255,7 +255,7 @@ defaults:
   # _csdn
   - scope:
       path: ""
-      type: csdn
+      type: csdn.py
     values:
       layout: single
       author_profile: true

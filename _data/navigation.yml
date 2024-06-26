@@ -10,7 +10,7 @@ main:
     url: /wechat/
 
   - title: "CSDN Posts"
-    url: /csdn/
+    url: /csdn.py/
     
   - title: "Guide"
     url: /markdown/
