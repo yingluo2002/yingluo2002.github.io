@@ -1,0 +1,13 @@
+---
+layout: archive
+title: "Wechat Posts"
+permalink: /wechat/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% for post in site.wechat reversed %}
+{% include archive-single.html %}
+{% endfor %}
+

@@ -1,0 +1,23 @@
+# main links links
+main:
+  - title: "Projects"
+    url: /projects/
+
+  - title: "Blogs"
+    url: /blogs/
+    
+  - title: "Wechat Posts"
+    url: /wechat/
+
+  - title: "CSDN Posts"
+    url: /csdn/
+
+  - title: "Bioinformatics"
+    url: /bioinformatics/
+    
+  - title: "Guide"
+    url: /markdown/
+
+
+
+  
