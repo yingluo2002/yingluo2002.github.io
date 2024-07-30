@@ -1,0 +1,113 @@
+---
+title: 毕业论文--人类前额叶皮质细胞发育过程的历史轨迹研究（理论基础）
+date: 2024-06-20
+permalink: /bioinformatics/2024/06/20/bioinformatics-post-02
+tags:
+  - 生物信息
+  - 轨迹分析
+  - 统计学方法
+  - 单细胞RNA测序
+---
+
+<font face="仿宋" size=3>人前额叶皮质细胞的发育过程研究涉及到交叉学科的众多相关理论，这里做一个简单介绍。
+<br><br>
+
+<br><hr><br>
+
+<font face="仿宋" size=5>人类前额叶皮层</font><br><br>
+
+<font face="仿宋" size=3>人类前额叶皮层（PFC）是大脑最前端的一部分，它在我们的认知功能中扮演着核心角色。前额叶皮层涉及多种复杂的心理过程，包括决策、规划、社会行为、人格表达以及抑制不适当的行为等。前额叶皮层可以根据解剖结构和功能分为多个区域，不同的区域承担不同的功能。</font>
+
+<div align=center>
+<img src="/static/本科毕业论文综述/人类前额叶皮质的划分.png" alt="人类前额叶皮质的划分" title="人类前额叶皮质的划分" width=450>
+<br><font face="仿宋" size=2>图1 人类前额叶皮质的划分</font></div><br>
+
+<font face="仿宋" size=3>(1)背外侧前额叶皮层（Dorsolateral Prefrontal Cortex）参与复杂的认知过程，如工作记忆、推理和规划。<br><br>
+
+(2)内侧前额叶皮层（Medial Prefrontal Cortex）与自我相关的思考、情绪调节和决策有关。<br><br>
+
+(3)眶额皮层（Orbitofrontal Cortex）与奖励处理、决策以及情绪控制相关联。<br><br>
+
+(4)腹内侧前额叶皮层（Ventromedial Prefrontal Cortex）通常与风险和恐惧的处理、情绪调节、冲动控制等有关。<br><br>
+
+前额叶皮层是人类大脑中最后成熟的区域之一，它的发育持续到20多岁。这一延迟发育的特点与青少年特有的行为和认知特征相关，如冲动行为和风险决策倾向。前额叶皮层与大脑中的许多其他区域都有广泛的神经连接，使其能够协调和整合多种类型的信息。例如，它与杏仁核、海马体等结构的连接参与情绪和记忆的处理；与顶叶、颞叶等区域的连接则参与复杂的认知过程。<br><br>
+
+总而言之，前额叶皮层是人类认知、情感和行为控制中极为重要的脑区，对于理解人类行为和心理活动具有重要意义。研究前额叶皮层不仅可以帮助更好地理解正常的大脑功能，还可以为治疗相关疾病提供重要信息。 </font><br>
+
+<font face="仿宋" size=5>单细胞测序技术</font><br><br>
+
+<font face="仿宋" size=3>单细胞测序技术是一种强大的技术手段，它允许科学家在单个细胞水平上研究基因组、转录组和表观基因组。这种技术揭示了细胞间的异质性，为我们理解组织的复杂性、细胞的功能状态以及它们如何在发育、疾病和治疗过程中响应环境变化提供了新视角。<br><br>
+
+<div align=center>
+<img src="/static/本科毕业论文综述/RNA单细胞测序流程图解.png" alt="RNA单细胞测序流程图解" title="RNA单细胞测序流程图解" width=450>
+<br><font face="仿宋" size=2>图2 RNA单细胞测序流程图解</font></div><br>
+
+目前单细胞测序主要有以下三种类型：<br><br>
+(1)单细胞基因组测序（scDNA-seq）：研究单个细胞的DNA水平变化，如突变和拷贝数变异。<br><br>
+(2)单细胞转录组测序（scRNA-seq）：分析单个细胞的RNA表达，揭示细胞的功能状态和表型。<br><br>
+(3)单细胞表观基因组测序：包括单细胞染色质可及性测序（如scATAC-seq）和单细胞甲基化测序，研究表观遗传层面的调控。<br><br>
+技术流程：<br><br>
+(1)单细胞分离：从组织或细胞培养中分离单个细胞，常用方法包括流式细胞排序和显微操作。<br><br>
+(2)细胞裂解和核酸提取：裂解细胞并提取DNA或RNA。<br><br>
+(3)扩增：因为单个细胞的核酸量有限，需要通过PCR或其他方法进行扩增。<br><br>
+(4)库构建和测序：构建适合高通量测序的库，并进行测序。<br><br>
+(5)数据分析：包括数据质量控制、序列比对、基因表达量计算、群体聚类等步骤。<br><br>
+在本文中，主要针对人前额叶皮质的单细胞转录组测序（scRNA-seq）数据做进一步的构建和分析。</font><br>
+
+<font face="仿宋" size=5>计算机基础</font><br><br>
+
+<font face="仿宋" size=3>单细胞RNA测序（scRNA-seq）数据的存储和管理在计算机科学中是一个挑战，主要由于数据量大、维度高、以及数据的稀疏性。这些特点要求开发专门的算法和数据结构来高效地存储、访问和处理这些数据。以下是一些主要的存储格式：<br><br>
+(1)FASTQ格式（见图2.3）：这是原始测序数据的通用格式，包含测序所得的核苷酸序列及其质量分数。每个测序读段由四行表示，包括标识符、核苷酸序列、+符号和质量分数。对于scRNA-seq来说，FASTQ文件是数据处理的起点。<br><br>
+(2)BAM/SAM格式（见图2.4）：序列比对完成后，比对结果通常以SAM（序列比对/映射格式）或其二进制版本BAM存储。SAM文件是一种文本格式，包含比对信息，如参考基因组的位置和序列比对的质量。BAM是SAM的压缩二进制版本，便于高效存储和访问。<br><br>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+    <div style="flex: 0 0 48%; margin-bottom: 20px; text-align: center;">
+        <img src="/static/本科毕业论文综述/FASTQ格式.png" alt="FASTQ格式" style="max-width: 100%; height: auto;">
+        <div>图3 FASTQ格式</div>
+    </div>
+    <div style="flex: 0 0 48%; margin-bottom: 20px; text-align: center;">
+        <img src="/static/本科毕业论文综述/BAM格式.png" alt="BAM格式" style="max-width: 100%; height: auto;">
+        <div>图4 BAM格式</div>
+    </div>
+    <div style="flex: 0 0 48%; text-align: center;">
+        <img src="/static/本科毕业论文综述/HDF5格式.png" alt="HDF5格式" style="max-width: 100%; height: auto;">
+        <div>图5 HDF5格式</div>
+    </div>
+    <div style="flex: 0 0 48%; text-align: center;">
+        <img src="/static/本科毕业论文综述/10X_Genomics格式.png" alt="10X Genomics格式" style="max-width: 100%; height: auto;">
+        <div>图6 10X Genomics格式</div>
+    </div>
+</div>
+
+
+(3)HDF5格式（见图2.5）：Hierarchical Data Format version 5 (HDF5) 是一种用于存储和组织大量数据的文件格式。在scRNA-seq中，HDF5可以用于存储大规模的基因表达矩阵，这些矩阵可能包含数百万个细胞和数千个基因。HDF5支持高效的数据访问和子集选择，适合大规模数据集。<br><br>
+(4)10X Genomics格式（见图2.6）：10X Genomics是scRNA-seq领域中广泛使用的平台之一，它有自己的数据格式，如Cell Ranger软件产生的输出文件。这些文件包括基因表达矩阵、聚类结果和维度缩减结果，通常以特定的文件格式存储，如MTX（矩阵市场格式）、TSV（制表符分隔值）或CSV（逗号分隔值）。</font><br>
+
+
+
+
+<font face="仿宋" size=5>参考文献</font><br><br>
+
+<font face="仿宋" size=3>[1]Tossell, K., Yu, X., Giannos, P., Anuncibay Soto, B., Nollet, M., Yustos, R., Miracca, G., Vicente, M. (2023). Somatostatin neurons in prefrontal cortex initiate sleep-preparatory behavior and sleep via the preoptic and lateral hypothalamus. Nature Neuroscience, 26(10), 1805-1819.<br><br>
+
+[2]C.A.Herring,R.K.Simmons,S.Freytag, et al. (2022). Human prefrontal cortex gene regulatory dynamics from gestation to adulthood at single-cell resolution.Cell,185(23),4428-4447.e28.<br><br>
+
+[3]Otsuka, J., Kikuchi, N., & Kojima, S. (1999). Similarity relations of DNA and RNA polymerases investigated by the principal component analysis of amino acid sequences. Biochimica et biophysica acta, 1434(2), 221-247.<br><br>
+
+[4]Michael S ,Renate B .Die Wahrnehmung verschiedener gentechnischer Anwendungen: Ergebnisse einer MDS-Analyse[J].Zeitschrift für Sozialpsychologie,1999,30(1):32-39.<br><br>
+
+[5]Prabhakaran,S.,Gatenbee, C., Robertson-Tessi, M., Antonia, S., Gatenby, R. A., & Anderson, A. R. A. (2022). Mistic: An open-source multiplexed image t-SNE viewer. Patter, 3(7), 100523.<br><br>
+
+[6]Yang, Y., Sun, H., Zhang, Y., Yang, Y., Wu, D., & Yu, D. (2021). Dimensionality reduction by UMAP reinforces sample heterogeneity analysis in bulk transcriptomic data. Cell Reports, 36(4), 109442.<br><br>
+
+[7]金涛,朱莉,李豪等.基于t-SNE加权和的高维多目标优化算法[J].湖北工业大学学报,2022,37(01):40-45.<br><br>
+
+[8]席俊羽,孙春全,谢雁鸣等.基于louvain算法的真实世界生脉注射液治疗老年心血管疾病用药方案的复杂网络分析[J].中医药临床杂志,2023,35(12):2388-2395.<br><br>
+
+[9]何鸿坚,殷依婷,谢江.迭代式特征选择的单细胞分化轨迹推断算法[J].计算机科学与探索,2023,17(07):1609-1621.<br><br>
+
+[10]李淑娟,柯妍,刘旭东等.基于生物信息学技术和机器学习算法筛选急性心肌梗死核心基因[J].实用心脑肺血管病杂志,2024,32(03):33-38.<br><br>
+
+[11]翟正利,梁振明,周炜等.变分自编码器模型综述[J].计算机工程与应用,2019,55(03):1-9.<br><br>
+
+[12]张智军.深度图卷积网络模型的研究与应用[D].扬州大学,2020.</font><br><br><hr>
