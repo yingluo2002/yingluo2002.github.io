@@ -1,0 +1,71 @@
+---
+title: 毕业论文--人类前额叶皮质细胞发育过程的历史轨迹研究（图谱构建）
+date: 2024-07-10
+permalink: /bioinformatics/2024/07/10/bioinformatics-post-02
+tags:
+  - 生物信息
+  - 轨迹分析
+  - 统计学方法
+  - 单细胞RNA测序
+---
+
+<font face="仿宋" size=3>细胞亚群图谱的建立是对人前额叶皮层细胞发育过程研究的基础，需要从细胞表达矩阵中提取构建细胞亚群结构并加以分析。
+
+<br><hr><br>
+
+<font face="仿宋" size=5>数据整合</font><br><br>
+
+<font face="仿宋" size=3>论文数据集来自2022年Charles A. Herring等人使用由29个用于snRNA-seq的样本数据。数据集包括单核RNA测序和单核染色质可及性测序的样本，涵盖了从胎儿到成人阶段的广泛时间范围。这里取其中23个不同发育阶段的样本做分析。数据存储格式为HDF5格式，共计23个h5文件，总大小为600MB左右。</font><br><br>
+
+<font face="仿宋" size=3>在HDF5格式的细胞表达数据集中，对象代表细胞，变量代表基因。基因的原始注释信息有三个：<br><br>
+(1)gene_ids：包含基因的唯一标识符，如ENSEMBL ID，用于标识每个基因；<br><br>
+(2)feature_types：描述基因的类型，例如是否为mRNA、tRNA或其他分子类型；<br><br>
+(3)genome：指明基因来源的基因组，例如可能是不同物种的基因组或不同的基因组版本。<br><br>
+这些基本信息有助于帮助在分析过程中更准确地识别和引用基因或其他生物分子特征。</font><br><br>
+
+<font face="仿宋" size=3>数据整合过程。主要考虑以下两点：<br><br>
+(1)细胞条形码标定。不同数据集中的细胞条形码可能会重复冲突，这里给条形码加上两个信息以做唯一化：批次信息（RL#）和发育时期（age）。<br><br>
+
+(2)细胞注释信息添加。根据已有的信息，对细胞添加基本的注释信息。</font><br><br>
+
+<div align=center>
+<img src="/static/本科毕业论文综述/标定举例.png" alt="标定举例" title="标定举例" width=450>
+<br><font face="仿宋" size=2>表1 标定举例</font></div><br>
+
+<font face="仿宋" size=3>23个HDF5格式的数据文件整合到一个数据集中，其基本信息见表2。</font><br><br>
+
+<div align=center>
+<img src="/static/本科毕业论文综述/整合后数据信息.png" alt="整合后数据信息" title="整合后数据信息" width=450>
+<br><font face="仿宋" size=2>表2 整合后数据信息</font></div><br>
+
+<br><hr><br>
+
+<font face="仿宋" size=5>叶皮层细胞发育阶段的划分</font><br><br>
+
+<font face="仿宋" size=3>发育阶段的划分依据于发育时期，依据整合后的数据集，这里考虑三种形式的发育时期（统一为年龄numerical_age）：<br><br>
+
+(1)妊娠后至出生前（即胎儿期间）。单位为ga（数据集中的单位），这里规定：基于妊娠40周，胎儿样本的年龄numerical_age为负，-280/365为受孕，0为出生。则换算公式为<br><br>
+
+\\[ numerical\_age=\frac{(ga \times 7) - (40 \times 7) }{365}\\]
+
+(2)出生后前几个月。单位为m（数据集中的单位），换算公式：<br><br>
+
+
+(3)出生后几年。单位为y（数据集中的单位），换算公式：<br><br>
+
+
+基于年龄numerical_age，将人类前额叶皮层细胞划分为7个发育阶段[23]。划分标准见表3.4。<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
